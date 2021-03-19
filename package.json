@@ -1,0 +1,22 @@
+{
+  "name": "@quinn/cli",
+  "version": "1.0.0",
+  "description": "quinn的cli脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "quinn-cli test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GYQ-LQ/quinn-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "quinn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GYQ-LQ/quinn-cli/issues"
+  },
+  "homepage": "https://github.com/GYQ-LQ/quinn-cli#readme"
+}
