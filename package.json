@@ -1,14 +1,17 @@
 {
-  "name": "@quinn/cli",
-  "version": "1.0.0",
-  "description": "quinn的cli脚手架",
+  "name": "@quinny/quinn-cli",
+  "version": "1.0.3",
+  "description": "quinn的个人脚手架工具",
   "main": "index.js",
   "scripts": {
-    "test": "quinn-cli test"
+    "test": "quinn-cli"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/GYQ-LQ/quinn-cli.git"
+    "url": "git+https://github.com/GYQ-LQ/quinny-cli.git"
+  },
+  "bin": {
+    "quinn-cli": "./src/index.js"
   },
   "keywords": [
     "cli"
@@ -16,7 +19,10 @@
   "author": "quinn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GYQ-LQ/quinn-cli/issues"
+    "url": "https://github.com/GYQ-LQ/quinny-cli/issues"
   },
-  "homepage": "https://github.com/GYQ-LQ/quinn-cli#readme"
+  "homepage": "https://github.com/GYQ-LQ/quinny-cli#readme",
+  "dependencies": {
+    "commander": "^7.1.0"
+  }
 }
